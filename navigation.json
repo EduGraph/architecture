@@ -1,0 +1,168 @@
+{
+  "path35": {
+    "title": "Structured Data from CMS",
+    "description": "The StudyFinder Extension allows Web editors in HEIs to produce structured data as part of the website source code while editing study course data via the ordinary TYPO3 Backend. No additional effort or competences are needed.",
+    "usecase": "Use Case Demo 2",
+    "technologies":[
+     {"src": "images/typo3logo.png", "name": "TYPO3"},
+     {"src": "images/JSON_LD.png", "name": "JSON-LD"}
+    ],
+    "links": [
+      {
+        "label": "Demo site",
+        "url": "http://t3-edugraph-demo.kreideweiss.info/index.php?id=39&tx_in2studyfinder_pi2%5BstudyCourse%5D=1&tx_in2studyfinder_pi2%5Baction%5D=detail&tx_in2studyfinder_pi2%5Bcontroller%5D=StudyCourse&cHash=eed7f829517b3121bf36d272bbcc001a"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "images/StudyFinder_ScrSh1.png",
+        "title": "Frontpage before editing"
+      },
+      {
+        "src": "images/StudyFinder_ScrSh2.png",
+        "title": "Sourcecode before editing"
+      },
+      {
+        "src": "images/StudyFinder_ScrSh3.png",
+        "title": "Backend before editing"
+      },
+      {
+        "src": "images/StudyFinder_ScrSh4.png",
+        "title": "Backend after editing"
+      },
+      {
+        "src": "images/StudyFinder_ScrSh5.png",
+        "title": "Frontpage after editing"
+      },
+      {
+        "src": "images/StudyFinder_ScrSh6.png",
+        "title": "Sourcecode after editing"
+      }
+    ]
+  },
+  "path129":{
+    "title": "Unstructured Data from Module Catalogs",
+    "description": "The Analysis Server processes unstructured module catalogs based on metadata. First the catalog is cut into pieces representing single modules. After indexing and calculations based on keyword lists and a parametrized formula, pillar shares are provided.",
+    "technologies":[
+     {"src": "images/Solr.png", "name": "Apache Solr"},
+     {"src": "images/MongoDB.png", "name": "Mongo DB"}
+   ],
+    "links": [
+      {
+        "label": "Example Module Catalog",
+        "url": "https://wirtschaft.th-brandenburg.de/fileadmin/user_upload/fb-wirtschaft/Studiengaenge/WI/Dokumente/WI_BA_Modulkatalog-Juli2014-v1.pdf"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "images/AnalysisServer_ScrSh1.png",
+        "title": "Analysis Server control panel"
+      },
+      {
+        "src": "images/AnalysisServer_ScrSh2.png",
+        "title": "Rest API response with pillar share data"
+      }
+    ]
+  },
+  "path171": {
+    "title": "Integration and Orchestration",
+    "description": "All tasks of data processing in EduGraph are controlled by the process engine. This comprises the overall time-based process control, different service calls, exception handlings etc. The process is modeled and visualized in BPMN.",
+    "usecase": "Component Interaction Demo 1",
+    "technologies":[
+     {"src": "images/camunda.png", "name": "Camunda BPM"},
+     {"src": "images/Rdf.png", "name": "RDF Translate"},
+     {"src": "images/Sparql.png", "name": "SPARQL"}
+   ],
+    "links": [
+      {
+        "label": "Process Viewer",
+        "url": "https://edugraph.github.io/EduGraph-Process-Viewer/"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/EduGraph/EduGraph-Integration"
+      }      
+
+    ]
+  },
+  "path185": {
+    "title": "Schema Information & Documentation Portal",
+    "description": "The backbone of the EduGraph system is a collaboratively used schema, mostly based on elements from schema.org. Actually there is an open infosite visualizng the current state of schema development and some additional information about entity types, relations, correspondig ideas, publications, contacts etc.",
+    "technologies":[
+     {"src": "images/schemaOrg.png", "name": "schema.org"}
+   ],
+    "links": [
+      {
+        "label": "Schema Documentation",
+        "url": "https://edugraph.github.io/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/EduGraph/bise-ontology"
+      }
+
+    ]
+  },
+
+  "path345": {
+    "title": "LinkedData API",
+    "description": "To address the difficulties of many Web developers using directly Semantic Web technologies, grlc technology can be used. It automates the buildig of Web APIs using SPARQL queries stored in GitHub repositories. This enables a broad reuse of EduGraph data by different kind of applications.",
+    "technologies":[
+      {"src": "images/grlc_logo.png", "name": "grlc"}
+    ],
+    "links": [
+      {
+        "label": "API Doc",
+        "url": "http://grlc.io/api/EduGraph/EduGraph-Queries/#"
+      },
+      {
+        "label": "SPARQL Queries",
+        "url": "https://github.com/EduGraph/EduGraph-Queries"
+      }
+
+    ]
+  },
+
+  "path387": {
+    "title": "EduGraph Preview",
+    "description": "The EduGraph Preview Tool gives Web administrators of HEIs the opportunity to check the implications of a participation or of a data change in advance. The tool is technically based on the systems’ own infrastructure and uses elements of the Web application StudyScout.",
+    "usecase": "Use Case Demo 3",
+    "technologies":[
+      {"src": "images/camunda.png", "name": "Camunda BPM"},
+      {"src": "images/Rdf.png", "name": "RDF Translate"},
+      {"src": "images/Sparql.png", "name": "SPARQL"}
+    ],
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://bmake.th-brandenburg.de/demos/EduGraph-Preview/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/EduGraph/EduGraph-Preview"
+      }
+    ]
+  },
+
+  "path67": {
+    "title": "Decision Support",
+    "description": "The Web application StudyScout is mainly built to visualize the shares of focus areas and according job profiles of a degree program. It is prototypically implemented for German programs in Information Systems.",
+    "usecase": "Use Case Demo 1",
+    "technologies":[
+      {"src": "images/Angular.png", "name": "AngurlarJS"},
+      {"src": "images/html5.png", "name": "HTML5"},
+      {"src": "images/css3.png", "name": "CSS3"},
+      {"src": "images/leaflet.png", "name": "leaflet"}
+    ],
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://bmake.th-brandenburg.de/demos/edugraph/app"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/EduGraph/StudySearch-WebApp"
+      }
+    ]
+  }
+}

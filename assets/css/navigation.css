@@ -1,0 +1,16 @@
+.architecture-link {
+    cursor: pointer;
+    opacity: 0.3;
+    fill: rgb(76,175,80) !important
+}
+
+.architecture-link.active {
+    opacity: 0.8;
+    fill: rgb(76,175,80) !important;
+}
+
+.architecture-link:hover {
+    opacity: 0.8;
+    fill: rgb(76,175,80) !important;
+}
+
